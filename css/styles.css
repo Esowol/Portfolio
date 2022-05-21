@@ -45,11 +45,12 @@ p {
 }
 
 h1 {
-  color: #24262a;
-  font-weight: 700;
+  color: #B2DEDD;
+  /* font-weight: 700; */
   font-size: 1.2rem;
   line-height: 3.25rem;
-  font-family: "Poppins";
+  font-family: 'poppins', serif;
+  font-weight: 400;
 }
 .intro {
   font-size: 20px;
@@ -523,14 +524,21 @@ input[type="checkbox"] {
   padding-top: 7rem;
   padding-bottom: 5.5rem;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../images/portrait.jpg") center center no-repeat;
+    url("../images/IMG_8970.JPG") no-repeat center center;
   background-size: cover;
   text-align: center;
 }
 
+.container{
+  text-align:left;
+}
+
 .header .h1-large {
   margin-bottom: 1.75rem;
-  color: #ffffff;
+  color: #B2DEDD;
+  font-family: 'Dancing Script' 'cursive' ;
+    font-weight: 400;
+    font-size: 25px;
 }
 
 .header .btn-solid-lg:hover {
