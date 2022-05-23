@@ -476,9 +476,11 @@ input[type="checkbox"] {
   padding-bottom: 0.5rem;
   color: #ffffff;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 15px;
   line-height: 0.875rem;
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar .dropdown-item:hover {
