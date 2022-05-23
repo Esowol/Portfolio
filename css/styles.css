@@ -1,4 +1,9 @@
-/* Description: Master CSS file */
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+  /* Description: Master CSS file */
 
 /*****************************************
 Table Of Contents:
@@ -32,6 +37,7 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
+
 body,
 html {
   width: 100%;
@@ -384,11 +390,13 @@ input[type="checkbox"] {
 .navbar .navbar-brand {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
+ 
 }
 
 .navbar .logo-image img {
-  width: 118px;
-  height: 36px;
+  width: 50px;
+  height: 45px;
+  border-radius: 100px;
 }
 
 .navbar .logo-text {
@@ -531,6 +539,7 @@ input[type="checkbox"] {
 
 .container{
   text-align:left;
+ 
 }
 
 .header .h1-large {
@@ -1211,6 +1220,8 @@ a:hover.back-to-top {
   /* Navigation */
   .navbar .container {
     max-width: 1330px;
+    background-color: #2c2d30;
+
   }
   /* end of navigation */
 
