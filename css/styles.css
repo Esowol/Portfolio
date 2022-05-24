@@ -149,7 +149,7 @@ a:hover {
 }
 
 .bg-gray {
-  background-color: #f7f9fb;
+  /* background-color: #f7f9fb; */
 }
 
 .section-divider {
@@ -414,7 +414,7 @@ input[type="checkbox"] {
 
 .offcanvas-collapse {
   position: fixed;
-  top: 3.25rem; adjusts the height between the top of the page and the offcanvas menu
+  top: 3.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
   bottom: 0;
   left: 100%;
   width: 100%;
@@ -539,14 +539,14 @@ input[type="checkbox"] {
   padding-top: 7rem;
   padding-bottom: 5.5rem;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); 
-  background-image: url(../images/IMG_3622.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+   url(../images/IMG_3622.JPG);
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: relative;
-  display: block;
+  /* position: relative; */
+  /* display: block; */
   background-size: 100% 100%;
   
 
@@ -648,10 +648,7 @@ input[type="checkbox"] {
 .basic-2 h4 {
   letter-spacing: 1px;
 }
-#services{
-  background-color: whitesmoke;
-  
-}
+
 
 /*******************/
 /*     Details     */
