@@ -535,27 +535,25 @@ input[type="checkbox"] {
 /******************/
 /*     Header     */
 /******************/
-#header {
-  padding-top: 7rem;
-  padding-bottom: 5.5rem;
-  text-align: center;
+
+.header{
+  /* padding-top: 7rem;
+  padding-bottom: 5.5rem; */
+  background-color: gray;
+  width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-   url(../images/IMG_3622.JPG);
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* position: relative; */
-  /* display: block; */
-  background-size: 100% 100%;
+  ;
+  /* background-size: 100% 100%; */
+}
+.header .imaging{
+  max-width: 1rem;
   
-
-
-} 
+}
 
 .container{
   text-align:left;
   height: auto;
+  width: 100%;
   /* background-color: whitesmoke; */
  
 }
@@ -566,11 +564,15 @@ input[type="checkbox"] {
   font-family: 'Dancing Script' 'cursive' ;
     font-weight: 400;
     font-size: 25px;
+    justify-content: center;
+    padding-top: 5rem;
+    align-content: flex-start;
 }
 
 .header .btn-solid-lg:hover {
   border: 1px solid #ffffff;
   color: #ffffff;
+  align-content: flex-start;
 }
 
 .header .btn-outline-lg {
@@ -1026,8 +1028,8 @@ a:hover.back-to-top {
 @media (min-width: 768px) {
   /* Header */
   .header {
-    padding-top: 11rem;
-    padding-bottom: 9rem;
+    /* padding-top: 11rem;
+    padding-bottom: 9rem; */
   }
 
   
@@ -1138,8 +1140,8 @@ a:hover.back-to-top {
 
   /* Header */
   .header {
-    padding-top: 15rem;
-    padding-bottom: 14rem;
+    /* padding-top: 15rem;
+    padding-bottom: 14rem; */
     text-align: left;
   }
   /* end of header */
@@ -1248,8 +1250,8 @@ a:hover.back-to-top {
 
   /* Header */
   .header {
-    padding-top: 18.25rem;
-    padding-bottom: 17.25rem;
+    /* padding-top: 18.25rem;
+    padding-bottom: 17.25rem; */
   }
   /* end of header */
 
