@@ -163,9 +163,9 @@ a:hover {
 .btn-solid-reg {
   display: inline-block;
   padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-  border: 1px solid #0b36a8;
+  border: 1px solid #ff007f;
   /* border-radius: 12px; */
-  background-color: #0b36a8;
+  background-color: #f4c2c2;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -176,16 +176,17 @@ a:hover {
 
 .btn-solid-reg:hover {
   background-color: transparent;
-  color: #0b36a8; /* needs to stay here because of the color property of a tag */
+  color: #ff007f; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
 .btn-solid-lg {
   display: inline-block;
   padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-  border: 1px solid #0b36a8;
+  border: 1px solid #f4c2c2;
   border-radius: 12px;
-  background-color: #0b36a8;
+  background-color: #f4c2c2
+  ;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -196,7 +197,7 @@ a:hover {
 
 .btn-solid-lg:hover {
   background-color: transparent;
-  color: #0b36a8; /* needs to stay here because of the color property of a tag */
+  color: #ff007f; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
@@ -216,7 +217,7 @@ a:hover {
 
 .btn-outline-reg:hover {
   background-color: #24262a;
-  color: #ffffff;
+  color: #f4c2c2;
   text-decoration: none;
 }
 
@@ -363,9 +364,9 @@ input[type="checkbox"] {
   display: inline-block;
   width: 100%;
   height: 3.25rem;
-  border: 1px solid #0b36a8;
+  border: 1px solid #f4c2c2;
   border-radius: 32px;
-  background-color: #0b36a8;
+  background-color: #f4c2c2;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -509,7 +510,8 @@ input[type="checkbox"] {
 }
 
 .navbar .fa-stack-2x {
-  color: #0b36a8;
+  color: #f4c2c2
+  ;
   transition: all 0.2s ease;
 }
 
@@ -523,7 +525,8 @@ input[type="checkbox"] {
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
-  color: #0b36a8;
+  color: #f4c2c2
+  ;
 }
 
 .navbar .navbar-toggler {
@@ -537,18 +540,15 @@ input[type="checkbox"] {
 /******************/
 
 .header{
-  /* padding-top: 7rem;
-  padding-bottom: 5.5rem; */
+  padding-top: 7rem;
+  padding-bottom: 5.5rem;
   background-color: gray;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-  ;
-  /* background-size: 100% 100%; */
+  url(../images/IMG_3622_2.jpg) no-repeat center top;
+  background-size: 100% 100%;
 }
-.header .imaging{
-  max-width: 1rem;
-  
-}
+
 
 .container{
   text-align:left;
@@ -605,7 +605,7 @@ input[type="checkbox"] {
 
 .basic-1 .time {
   margin-bottom: 0.5rem;
-  color: #0b36a8;
+  color: #f4c2c2;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 1.5rem;
@@ -643,7 +643,7 @@ input[type="checkbox"] {
 .basic-2 .fas,
 .basic-2 .far {
   margin-bottom: 1.75rem;
-  color: #0b36a8;
+  color: #f4c2c2;
   font-size: 3.5rem;
 }
 
@@ -890,9 +890,9 @@ input[type="checkbox"] {
 /*     Footer     */
 /******************/
 .footer {
-  padding-top: 6.25rem;
-  padding-bottom: 2rem;
-  background-color: #24262a;
+  /* padding-top: 6.25rem;
+  padding-bottom: 2rem; */
+  background-color: grey;
   text-align: center;
 }
 
@@ -913,7 +913,7 @@ input[type="checkbox"] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-  color: #0b36a8;
+  color: #f4c2c2;
   transition: all 0.2s ease;
 }
 
@@ -922,7 +922,7 @@ input[type="checkbox"] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-  color: #ffffff;
+  color: transparent;
 }
 
 /*********************/
@@ -931,17 +931,17 @@ input[type="checkbox"] {
 .copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #24262a;
+  background-color: gray;
   text-align: center;
 }
 
 .copyright .p-small {
-  color: #9da6ac;
+  color: #b0e0e6;
   text-align: center;
 }
 
 .copyright a {
-  color: #9da6ac;
+  color: #b0e0e6;
 }
 
 /******************************/
@@ -962,7 +962,7 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-  background-color: #0b36a8;
+  background-color: #f4c2c2;
 }
 
 /***********************/
@@ -1003,7 +1003,7 @@ a:hover.back-to-top {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-  color: #0b36a8;
+  color: #f4c2c2;
 }
 
 .ex-cards-1 .card .fa-stack-1x {
@@ -1209,6 +1209,9 @@ a:hover.back-to-top {
   /* end of accordion */
 
   /* Contact */
+  #contact{
+    background-color: #b0e0e6;
+  }
   .form-1 form {
     width: 790px;
     margin-right: auto;
