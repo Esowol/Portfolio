@@ -54,11 +54,18 @@ p {
 h1 {
   color: #B2DEDD;
   font-weight: 700;
-  font-size: 1.2rem;
-  line-height: 3.25rem;
-  font-family: 'poppins', serif;
+  font-size: 2.5rem;
+  line-height: 5rem;
+  font-family: 'Dancing Script', cursive;}
+    
+
+.ini {
+  font-family: 'Belleza', cursive;
+  color: rgb(145, 21, 62);
+  font-size: 25px;
   font-weight: 400;
 }
+
 .intro {
   font-size: 20px;
 }
@@ -67,15 +74,26 @@ h2 {
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
-  font-family: "Poppins";
-}
+  font-family: 'Dancing Script', cursive;}
 
 h3 {
   color: #24262a;
   font-weight: 700;
   font-size: 1.75rem;
   line-height: 2.25rem;
-  font-family: "Poppins";
+  font-family: 'Belleza';
+}
+.tank {
+  font-family: 'Belleza', cursive;
+  font-weight: 500;
+  font-size: 20px;
+}
+.work {
+  font-family: 'Belleza', cursive;}
+
+p{
+  font-family: 'Belleza';
+  
 }
 
 h4 {
@@ -83,23 +101,23 @@ h4 {
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 2rem;
-  font-family: "Poppins";
+  font-family: 'Belleza';
 }
 
 h5 {
   color: #24262a;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: 1.625rem;
-  font-family: "Poppins";
+  font-family: 'Dancing Script', cursive;}
 }
 
 h6 {
   color: #24262a;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 18px;
   line-height: 1.375rem;
-  font-family: "Poppins";
+  font-family: 'Dancing Script', cursive;}
 }
 
 .p-large {
@@ -108,7 +126,7 @@ h6 {
 }
 
 .p-small {
-  font-size: 0.875rem;
+  font-size: 16px;
   line-height: 1.5rem;
 }
 
@@ -444,7 +462,7 @@ input[type="checkbox"] {
 .navbar .nav-item .nav-link {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  color: #ffffff;
+  color: #f4c2c2;
   text-decoration: none;
   transition: all 0.2s ease;
 }
@@ -605,11 +623,11 @@ input[type="checkbox"] {
 
 .basic-1 .time {
   margin-bottom: 0.5rem;
-  color: #f4c2c2;
+  color: #d36565;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 1.5rem;
-  font-family: "Poppins";
+  font-family: 'Dancing Script', cursive;}
 }
 
 .basic-1 h6 {
@@ -662,7 +680,7 @@ input[type="checkbox"] {
       rgba(25, 26, 29, 0.5),
       rgba(25, 26, 29, 0.5)
     ),
-    url("../images/details-background.jpg") center center no-repeat;
+    url("../images/project-details-large.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -767,6 +785,27 @@ input[type="checkbox"] {
 /************************/
 /*     Testimonials     */
 /************************/
+.accordion{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding:18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel{
+  padding: 0 18px;
+  background-color: #ffffff;
+  display: none;
+  overflow: hidden;
+}
 .cards-1 {
   padding-top: 3rem;
   padding-bottom: 3.875rem;
