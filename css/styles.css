@@ -70,7 +70,7 @@ h1 {
   font-size: 20px;
 }
 h2 {
-  color: #24262a;
+  color: #d36565;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
@@ -110,15 +110,17 @@ h5 {
   font-size: 2rem;
   line-height: 1.625rem;
   font-family: 'Dancing Script', cursive;}
-}
+
 
 h6 {
   color: #24262a;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.375rem;
-  font-family: 'Dancing Script', cursive;}
+  font-family: "Belleza";
+  padding-top: 7px;
 }
+
 
 .p-large {
   font-size: 14px;
@@ -625,10 +627,12 @@ input[type="checkbox"] {
   margin-bottom: 0.5rem;
   color: #d36565;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.5rem;
-  font-family: 'Dancing Script', cursive;}
+  font-family: 'Dancing Script', cursive;
+  padding-top: 5px;
 }
+  
 
 .basic-1 h6 {
   margin-bottom: 0.125rem;
