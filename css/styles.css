@@ -786,7 +786,7 @@ input[type="checkbox"] {
 /*     Testimonials     */
 /************************/
 .accordion{
-  background-color: #eee;
+  /* background-color: #eee; */
   color: #444;
   cursor: pointer;
   padding:18px;
@@ -797,7 +797,7 @@ input[type="checkbox"] {
   transition: 0.4s;
 }
 .active, .accordion:hover {
-  background-color: #ccc;
+  /* background-color: #ccc; */
 }
 
 .panel{
@@ -805,6 +805,7 @@ input[type="checkbox"] {
   background-color: #ffffff;
   display: none;
   overflow: hidden;
+  font-family: "Belleza" ;
 }
 .cards-1 {
   padding-top: 3rem;
