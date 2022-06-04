@@ -1143,12 +1143,14 @@ a:hover.back-to-top {
   .recipe{
     height: 15rem;
     display: flex;
+    width: inherit;
     
   }
   
   .form{
     height: 15rem;
     display: flex;
+    width: inherit;
   }
   
   .preview{
