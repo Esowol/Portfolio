@@ -658,18 +658,18 @@ input[type="checkbox"] {
   height: auto;
   background-color: f4c2c2;
   padding-top: 1.5rem;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
   padding-right: 1rem;
   
 
 }
 
 .image-container img{
-  width: 18rem;
+  width: 17rem;
   height: 11rem;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
   align-items: flex-start;
   margin: 5px;
   display: flex;
