@@ -619,9 +619,11 @@ input[type="checkbox"] {
 /*****************/
 /*     About     */
 /*****************/
+
 .basic-1 {
   padding-top: 7.75rem;
   padding-bottom: 5.25rem;
+  justify-content: space-between;
 }
 
 .basic-1 .text-container {
@@ -650,31 +652,39 @@ input[type="checkbox"] {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content:center;
-  justify-content: space-aro;
-  align-items: flex-start;
-  width: 100%;
-  height: auto;
+  /* align-content:center;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  /* width: 100;
+  height: auto; */
   background-color: f4c2c2;
   padding-top: 1.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  
 
 }
-.recipe{
+
+.image-container img{
+  width: 25rem;
   height: 15rem;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: flex-start;
+  margin: 1rem;
   display: flex;
-  /* width: fit-content; */
+  flex-direction: row;
+}
+.recipe{
+  display: flex;
 }
 
 .form{
-  height: 15rem;
   display: flex;
  
 }
 
 .preview{
-  height: 15rem;
   display: flex;
 }
 /********************/
@@ -1147,9 +1157,7 @@ a:hover.back-to-top {
     
   
   }
-  .footer{
-    width: 100;
-  }
+ 
   /* end of extra pages */
   
 }
@@ -1251,9 +1259,7 @@ a:hover.back-to-top {
     
   
   }
-  .footer{
-    width: 100;
-  }
+  
   /* end of navigation */
 
   /* Header */
@@ -1426,19 +1432,22 @@ a:hover.back-to-top {
 }
 /* end of min-width 1200px */
 @media (max-width: 768px) {
-  /* body{
-    width: 100%;
-    height: auto; */
-  }
+   /* body{
+    width: fit-content;
+    height: auto;
+  } */
 
   .image-container{
     align-content:center;
     justify-content: space-between;
     width: 100;
     height: fit-content;
-    
-    
-  
+  }
+
+  .image-container img{
+    display: flex;
+    width: 18rem;
+    height: auto;
   }
   /* .footer{
     width: 100;
