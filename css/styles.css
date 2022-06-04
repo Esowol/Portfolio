@@ -1131,33 +1131,7 @@ a:hover.back-to-top {
   }
   
   /* end of extra pages */
-  .image-container{
-    align-content:center;
-    justify-content: center;
-    /* width: 70vw;
-    height: fit-content; */
-    flex-direction: column ;
-    
   
-  }
-  .recipe{
-    height: 15rem;
-    display: flex;
-    width: inherit;
-    
-  }
-  
-  .form{
-    height: 15rem;
-    display: flex;
-    width: inherit;
-  }
-  
-  .preview{
-    height: 15rem;
-    display: flex;
-    width: inherit;
-}
 }
 /* end of min-width 768px */
 
@@ -1422,21 +1396,23 @@ a:hover.back-to-top {
   .image-container{
     align-content:center;
     justify-content: center;
-    width: 70vw;
-    height: fit-content;
-    flex-direction: ;
+    /* width: 70vw;
+    height: fit-content; */
+    flex-direction: column ;
     
   
   }
   .recipe{
     height: 15rem;
     display: flex;
+    width: inherit;
     
   }
   
   .form{
     height: 15rem;
     display: flex;
+    width: inherit;
   }
   
   .preview{
