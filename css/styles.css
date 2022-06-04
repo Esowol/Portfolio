@@ -1131,6 +1131,31 @@ a:hover.back-to-top {
   }
   
   /* end of extra pages */
+  .image-container{
+    align-content:center;
+    justify-content: center;
+    width: 70vw;
+    height: fit-content;
+    flex-direction: ;
+    
+  
+  }
+  .recipe{
+    height: 15rem;
+    display: flex;
+    
+  }
+  
+  .form{
+    height: 15rem;
+    display: flex;
+  }
+  
+  .preview{
+    height: 15rem;
+    display: flex;
+    width: inherit;
+}
 }
 /* end of min-width 768px */
 
