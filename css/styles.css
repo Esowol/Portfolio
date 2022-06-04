@@ -651,12 +651,14 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   flex-direction: row;
   align-content:center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: flex-start;
   width: 100%;
   height: auto;
   background-color: f4c2c2;
   padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 
 }
 .recipe{
