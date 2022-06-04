@@ -1392,17 +1392,22 @@ a:hover.back-to-top {
   /* end of extra pages */
 }
 /* end of min-width 1200px */
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  body{
+    width: 100%;
+    height: auto;
+  }
+
   .image-container{
     align-content:center;
     justify-content: center;
-    /* width: 70vw;
-    height: fit-content; */
-    flex-direction: column ;
+    width: 100;
+    height: auto;
+    
     
   
   }
-  .recipe{
+  /* .recipe{
     height: 15rem;
     display: flex;
     width: inherit;
@@ -1419,4 +1424,5 @@ a:hover.back-to-top {
     height: 15rem;
     display: flex;
     width: inherit;
+} */
 }
