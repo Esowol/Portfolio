@@ -651,7 +651,7 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   flex-direction: row;
   align-content:center;
-  justify-content: space-around;
+  justify-content: space-aro;
   align-items: flex-start;
   width: 100%;
   height: auto;
@@ -1391,12 +1391,13 @@ a:hover.back-to-top {
   /* end of extra pages */
 }
 /* end of min-width 1200px */
-/* @media (max-width: 768px){
+@media (max-width: 768px){
   .image-container{
     align-content:center;
-    justify-content: space-between;
+    justify-content: center;
     width: 70vw;
     height: fit-content;
+    flex-direction: ;
     
   
   }
@@ -1415,4 +1416,4 @@ a:hover.back-to-top {
     height: 15rem;
     display: flex;
     width: inherit;
-} */
+}
