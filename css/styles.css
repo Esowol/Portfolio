@@ -1400,8 +1400,8 @@ a:hover.back-to-top {
 
   .image-container{
     align-content:center;
-    justify-content: center;
-    width: 100;
+    justify-content: space-between;
+    width: 70vw;
     height: auto;
     
     
